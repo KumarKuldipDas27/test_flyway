@@ -14,7 +14,7 @@ flyway.schemas = test_migration
 
 [flyway]
 # environment = "sample" # It is recommended to configure environment as a commandline argument. This allows using different environments depending on the caller.
-# locations = ["filesystem:path/to/sql/files"]
+locations = filesystem:D:/repos/test_flyway
 # jarDirs = ["path/to/java/migrations"]
 
 # [environments.build]
