@@ -1,0 +1,5 @@
+CREATE TABLE Citizen (
+    Citizen_ID SERIAL PRIMARY KEY,
+    Citizen_Name VARCHAR(255) NOT NULL,
+    SSN DECIMAL(10, 2) NOT NULL
+);
